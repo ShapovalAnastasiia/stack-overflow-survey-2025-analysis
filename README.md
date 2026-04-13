@@ -67,3 +67,9 @@ The goal of this analysis is to understand **global developer trends**, includin
 This analysis highlights that **developer compensation is driven more by experience, geography, and role type than formal education alone**.
 
 It also confirms the strong global adoption of Python and the continued relevance of remote work in the software industry.
+
+--- 
+
+## Skills Demonstrated
+
+Python • Pandas • Data Analysis • Data Cleaning • EDA • Statistical Thinking • Business Insights
