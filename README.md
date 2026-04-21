@@ -1,75 +1,87 @@
 # stack-overflow-survey-2025-analysis
 
-# 📊 Stack Overflow Developer Survey 2025
+# 📊 Stack Overflow Developer Survey Analysis (Python & Jupyter Notebook)
 
-## Project Overview
+## Overview
+This project presents an exploratory data analysis of the Stack Overflow Developer Survey dataset (49,000+ respondents).
 
-This project presents an exploratory data analysis (EDA) of the Stack Overflow Developer Survey 2025 dataset using Python and Pandas.
+The goal is to identify global developer trends in compensation, remote work, and programming language adoption, with a focus on Python.
 
-The goal of this analysis is to understand **global developer trends**, including compensation patterns, remote work adoption, programming language usage (with focus on Python), and key factors influencing developer salaries.
+## Context
 
-## **Tools**
-- Python  
-- Pandas  
-- Jupyter Notebook  
-- Data Cleaning & Preprocessing  
-- Aggregation & Percentile Analysis  
+The objective of this analysis was to explore large-scale survey data and answer key questions relevant for the tech job market:
 
----
+How widely is Python used among developers?
 
-## Objectives
+What are the main factors influencing developer salaries?
 
-- Analyze global developer demographics and work experience distribution  
-- Evaluate programming language popularity (focus on Python)  
-- Investigate remote work adoption trends  
-- Analyze salary distribution across countries and experience levels  
-- Identify key factors associated with high income among developers
+How common is remote work across the industry?
 
----
+How do compensation levels vary across countries and experience levels?
 
-## **Dataset**
-**Source:** Stack Overflow Developer Survey 2025  
-**Files used:**  
-- survey_results_public.csv  
-- survey_results_schema.csv  
+## Data
+Source: Stack Overflow Developer Survey
 
-> CSV files are not included due to size — available on the official website.
+Size: 49,000+ respondents
 
----
+Files used:
+- survey_results_public.csv
+- survey_results_schema.csv
 
-## Analysis Approach
+> Note: Dataset is not included in the repository due to size (available on the official Stack Overflow website).
 
-- Loaded and explored large-scale dataset using Pandas  
-- Handled missing values and ensured data consistency  
-- Calculated descriptive statistics (mean, median, mode, percentiles)  
-- Performed segmentation by:
-  - Country  
-  - Education level  
-  - Programming language  
-  - Work arrangement (remote vs on-site)  
-- Filtered Python developers for focused analysis  
-- Identified top-paid developer segments  
+Key features:
+- Country
+- Salary
+- Programming languages
+- Work arrangement (remote/on-site)
+- Education level
+- Years of experience
 
----
+## Process
+1. Data Cleaning & Preparation
+- Handled missing values
+- Standardized key fields (salary, country, experience)
+- Filtered relevant columns for analysis
+2. Exploratory Data Analysis (EDA)
+- Analyzed distribution of salaries
+- Explored developer demographics
+- Investigated work experience patterns
+3. Statistical Analysis
+- Calculated:
+  - Mean
+  - Median
+  - Mode
+  - Percentiles
+- Compared distributions across segments
+4. Segmentation & Analysis
+- Segmented users by:
+  - Country
+  - Education level
+  - Work type (remote vs on-site)
+  - Programming language (Python focus)
+- Performed country-level salary comparison
+- Identified high-income segments
 
-## Key Insights
+## Results
+*Python Adoption*: ~37% of developers use Python
 
-- Approximately **37% of developers use Python**, confirming its strong global adoption  
-- Remote work remains a significant part of the developer ecosystem (~25%+)  
-- Salary levels vary significantly across countries, with strong geographic influence  
-- Education level alone is not a strong predictor of high income  
-- High-income developers are more concentrated in software development roles and specific regions
+*Remote Work*: ~25% of respondents work remotely
 
----
+*Salary Distribution*: Significant variation across countries
 
-## Conclusion
+*Education vs Income*: Weak correlation between formal education and high salary
 
-This analysis highlights that **developer compensation is driven more by experience, geography, and role type than formal education alone**.
-
-It also confirms the strong global adoption of Python and the continued relevance of remote work in the software industry.
-
---- 
+## Business Insights & Interpretation
+- Python remains one of the most востребованих skills on the global market
+- Geography is a key driver of salary differences (location matters more than education)
+- Remote work is established but not dominant, indicating hybrid opportunities
+- High salaries are more strongly associated with:
+  - Experience
+  - Role type
+  - Location
 
 ## Skills Demonstrated
 
-Python • Pandas • Data Analysis • Data Cleaning • EDA • Statistical Thinking • Business Insights
+Python • Pandas • Data Cleaning • EDA • Statistical Analysis • Segmentation • Analytical Thinking
+
